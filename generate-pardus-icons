@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+for i in $(cat list)
+do
+  number=$(echo $i | cut -d"x" -f 1)
+  echo $number
+  rsvg-convert 64x64/apps/pardus-store.svg -w $(($number + 0)) -h $(($number + 0)) -f svg -o $i/apps/pardus-store.svg
+  rsvg-convert 64x64/apps/pardus-imagewriter.svg -w $(($number + 0)) -h $(($number + 0)) -f svg -o $i/apps/pardus-imagewriter.svg
+done
