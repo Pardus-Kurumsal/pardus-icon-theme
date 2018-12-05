@@ -1,3 +1,9 @@
+pardus-icon-theme (1.0.3) unstable; urgency=medium
+
+  * Handle old icon theme package
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 05 Dec 2018 11:15:50 +0300
+
 pardus-icon-theme (1.0.2) unstable; urgency=medium
 
   * Update copyright
