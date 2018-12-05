@@ -6,6 +6,7 @@ Source: http://pardus.org.tr
 Files: debian/*
        Makefile
        .drone.yml
+       source/*
        pardus/64x64/apps/pardus-store.svg
        pardus/64x64/apps/pardus-imagewriter.svg
        pardus/48x48/apps/pardus-store.svg
