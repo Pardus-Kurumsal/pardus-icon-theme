@@ -1,0 +1,20 @@
+Source: pardus-icon-theme
+Section: x11
+Priority: optional
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://pardus.org.tr
+
+Package: pardus-icon-theme
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, hicolor-icon-theme
+Description: Pardus Icon Theme for Pardus desktop 
+ environment.
+ .
+ Pardus icon theme package provides following icon
+ themes:
+  - pardus (as default)
+  - pardus-dark
+  - pardus-light
