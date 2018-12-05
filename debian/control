@@ -9,6 +9,10 @@ Homepage: https://pardus.org.tr
 Package: pardus-icon-theme
 Architecture: all
 Multi-Arch: foreign
+Breaks: pardus-xfce-icon-theme (<< 1.4)
+Conflicts: pardus-xfce-icon-theme (<< 1.4)
+Replaces: pardus-xfce-icon-theme (<< 1.4)
+Provides: pardus-xfce-icon-theme
 Depends: ${misc:Depends}, hicolor-icon-theme
 Description: Pardus Icon Theme for Pardus desktop 
  environment.
